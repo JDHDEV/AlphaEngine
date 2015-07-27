@@ -1,0 +1,43 @@
+$(ProjectDir)..\..\Lib\$(PlatformName)$(Configuration)\
+
+dxut.lib
+dxutopt.lib
+
+$(IntDir)vc$(PlatformToolsetVersion).pdb
+
+TeaPot Wars Settings:
+
+
+$(VCInstallDir)bin
+$(WindowsSdkDir)bin\NETFX 4.0 Tools
+$(WindowsSdkDir)bin
+$(VSInstallDir)Common7\Tools\bin
+$(VSInstallDir)Common7\tools
+$(VSInstallDir)Common7\ide
+$(ProgramFiles)\HTML Help Workshop
+$(FrameworkSDKDir)\bin
+$(MSBuildToolsPath32)
+$(VSInstallDir)
+$(SystemRoot)\SysWow64
+$(FxCopDir)
+$(PATH)
+
+$(ProjectDir)
+$(ProjectDir)..\3rdParty\DXUT11\Optional
+$(ProjectDir)..\3rdParty\DXUT11\Effects11\Inc
+$(ProjectDir)..\3rdParty\DXUT11\Core
+...
+$(DXSDK_DIR)\Include
+
+$(VCInstallDir)include
+$(VCInstallDir)atlmfc\include
+$(WindowsSdkDir)include
+$(FrameworkSDKDir)\include
+
+
+
+
+
+WIN32
+_DEBUG
+_WINDOWS

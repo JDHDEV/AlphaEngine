@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AlphaStd.cpp" />
+    <ClCompile Include="..\..\Actors\Actor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Actors\ActorFactory.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Actors\BaseScriptComponent.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Actors\RenderComponent.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Actors\TransformComponent.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Alpha\Alpha.cpp">
+      <Filter>Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Alpha\AlphaMain.cpp">
+      <Filter>Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Alpha\BaseGameLogic.cpp">
+      <Filter>Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Debugging\Logger.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EventManager\EventManager.cpp">
+      <Filter>Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EventManager\EventManagerImpl.cpp">
+      <Filter>Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EventManager\Events.cpp">
+      <Filter>Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Font.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Gui.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Text.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Wrapper.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DX11WState.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\D3DRenderer.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\Geometry.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\Lights.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\Material.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\MovementController.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\Scene.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\SceneNodes.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\Shaders.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\Sky.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LUAScripting\LuaStateManager.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LUAScripting\ScriptEvent.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LUAScripting\ScriptExports.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LUAScripting\ScriptProcess.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LUAScripting\ScriptResource.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Mainloop\Initialization.cpp">
+      <Filter>Mainloop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Mainloop\Process.cpp">
+      <Filter>Mainloop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Mainloop\ProcessManager.cpp">
+      <Filter>Mainloop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ResourceCache\ResCache.cpp">
+      <Filter>Resource Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ResourceCache\XmlResource.cpp">
+      <Filter>Resource Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ResourceCache\ZipFile.cpp">
+      <Filter>Resource Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheGame.cpp">
+      <Filter>TheGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheGameEvents.cpp">
+      <Filter>TheGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TheGameView.cpp">
+      <Filter>TheGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UserInterface\HumanView.cpp">
+      <Filter>User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UserInterface\MessageBox.cpp">
+      <Filter>User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utilities\AlphaTimer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utilities\Math_Random.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utilities\String.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Physics\Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Physics\PhysicsDebugDrawer.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Physics\PhysicsEventListener.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Actors\PhysicsComponent.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Vertex.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Pixel.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectX11Wrapper\DirectX11Renderable.cpp">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Graphics3D\OctTree.cpp">
+      <Filter>Graphics3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlphaStd.h" />
+    <ClInclude Include="..\..\Actors\Actor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\ActorComponent.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\ActorFactory.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\AmmoPickup.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\BaseScriptComponent.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\PickupInterface.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\RenderComponent.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\RenderComponentInterface.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\ScriptComponentInterface.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\TransformComponent.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alpha\Alpha.h">
+      <Filter>Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alpha\BaseGameLogic.h">
+      <Filter>Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Alpha\interfaces.h">
+      <Filter>Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Debugging\Logger.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EventManager\EventManager.h">
+      <Filter>Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EventManager\EventManagerImpl.h">
+      <Filter>Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EventManager\Events.h">
+      <Filter>Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Font.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Gui.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Text.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Wrapper.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DX11WState.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\D3DRenderer.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\Geometry.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\Lights.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\Material.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\MovementController.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\Scene.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\SceneNodes.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\Shaders.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\Sky.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LUAScripting\LuaStateManager.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LUAScripting\ScriptEvent.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LUAScripting\ScriptExports.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LUAScripting\ScriptProcess.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LUAScripting\ScriptResource.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mainloop\Initialization.h">
+      <Filter>Mainloop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mainloop\Process.h">
+      <Filter>Mainloop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mainloop\ProcessManager.h">
+      <Filter>Mainloop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Multicore\CriticalSection.h">
+      <Filter>Multicore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ResourceCache\ResCache.h">
+      <Filter>Resource Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ResourceCache\XmlResource.h">
+      <Filter>Resource Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ResourceCache\ZipFile.h">
+      <Filter>Resource Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheGame.h">
+      <Filter>TheGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheGameEvents.h">
+      <Filter>TheGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheGameStd.h">
+      <Filter>TheGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TheGameView.h">
+      <Filter>TheGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UserInterface\HumanView.h">
+      <Filter>User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UserInterface\MessageBox.h">
+      <Filter>User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UserInterface\UserInterface.h">
+      <Filter>User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utilities\AlphaTimer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utilities\templates.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utilities\types.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Physics\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Physics\PhysicsDebugDrawer.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Physics\PhysicsEventListener.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Actors\PhysicsComponent.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Vertex.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Pixel.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectX11Wrapper\DirectX11Renderable.h">
+      <Filter>DirectX11Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Graphics3D\OctTree.h">
+      <Filter>Graphics3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{e270aa96-7336-452c-8e9a-208c15857184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Alpha">
+      <UniqueIdentifier>{5595d96e-d8fe-4bdb-831e-8b35325ea1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{b630c6d8-0828-4cd3-a911-ef595dd3046b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event Manager">
+      <UniqueIdentifier>{0c231f24-aab9-4395-aa67-28f4efad71ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11Wrapper">
+      <UniqueIdentifier>{a4f5a875-bf21-4ab1-8275-c5e24536a919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics3D">
+      <UniqueIdentifier>{cd56a15f-70e7-4f21-93e7-a5e192d40d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAScripting">
+      <UniqueIdentifier>{9c634b7b-7679-4586-a117-b1655894cee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mainloop">
+      <UniqueIdentifier>{e9f75051-2fac-4864-9cf0-c1d5775dcd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multicore">
+      <UniqueIdentifier>{8214be88-7c4f-44b6-b826-196b2031cb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Cache">
+      <UniqueIdentifier>{d62e921e-647f-4be1-8972-98a77dfa7b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheGame">
+      <UniqueIdentifier>{c58afff4-e287-4d70-b36d-dc13b9b5ca45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{7569e98d-61b0-449b-ab69-b3d5fd52132d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{07a622d4-499b-4d16-8940-a639d97c4ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{7f9c477b-346a-4b57-90d0-1b96c4e76633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
